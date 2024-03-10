@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 0;
+}
+
+h1{
+    color: #00a1e6;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-data{
+    padding: 20px 0;
+}
+
+.user-data>img, 
+.profile-img, 
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-data>textarea{
+    height: 70px;
+    resize: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 15px 10px;
+}
+
+.tweet-btn{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px 0;
+    color: whitesmoke;
+    background-color: #00a1e6;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.tweet-btn:hover,
+.tweet-btn:focus, 
+.tweet-btn:active{
+    opacity: 0.8;
+}
+
+.tweet-container{
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #7a7a7a;
+    gap: 10px;
+    position: relative;
+}
+
+.handle{
+    color: #7a7a7a;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.twimba-user-data{
+    gap: 20px;
+}
+
+.tweet-icons{
+    gap: 30px;
+}
+
+.icon-item{
+    gap: 5px;
+}
+
+.fa-heart, .fa-retweet{
+    color: #7a7a7a;
+}
+
+.fa-solid:hover,
+.fa-regular:hover{
+    cursor: pointer;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted{
+    color: #00a1e6;
+}
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.hidden{
+    display: none;
+}
+
+.trash{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.trash:hover{
+    color: red;
+}
